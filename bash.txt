@@ -1,0 +1,118 @@
+function setproxy {
+http_proxy=http://proxy.wdf.sap.corp:8080
+HTTP_PROXY=$http_proxy
+https_proxy=$http_proxy
+HTTPS_PROXY=$http_proxy
+ftp_proxy=$http_proxy
+FTP_PROXY=$http_proxy
+no_proxy=".sap.corp, localhost"
+NO_PROXY=$no_proxy
+export http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY
+echo "http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY"
+echo "set to: $http_proxy"
+echo "no_proxy, NO_PROXY set to: $no_proxy!"
+}
+function noproxy {
+unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY
+echo "http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY"
+echo "unset!"
+}
+function setproxy {
+http_proxy=http://proxy.wdf.sap.corp:8080
+HTTP_PROXY=$http_proxy
+https_proxy=$http_proxy
+HTTPS_PROXY=$http_proxy
+ftp_proxy=$http_proxy
+FTP_PROXY=$http_proxy
+no_proxy=".sap.corp, localhost"
+NO_PROXY=$no_proxy
+export http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY
+echo "http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY"
+echo "set to: $http_proxy"
+echo "no_proxy, NO_PROXY set to: $no_proxy!"
+}
+function noproxy {
+unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY
+echo "http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY"
+echo "unset!"
+}
+function setproxy {
+http_proxy=http://proxy.wdf.sap.corp:8080
+HTTP_PROXY=$http_proxy
+https_proxy=$http_proxy
+HTTPS_PROXY=$http_proxy
+ftp_proxy=$http_proxy
+FTP_PROXY=$http_proxy
+no_proxy=".sap.corp, localhost"
+NO_PROXY=$no_proxy
+export http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY
+echo "http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY"
+echo "set to: $http_proxy"
+echo "no_proxy, NO_PROXY set to: $no_proxy!"
+}
+function noproxy {
+unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY
+echo "http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY"
+echo "unset!"
+}
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+eval "$(rbenv init -)"
+function setproxy {
+http_proxy=http://proxy.wdf.sap.corp:8080
+HTTP_PROXY=$http_proxy
+https_proxy=$http_proxy
+HTTPS_PROXY=$http_proxy
+ftp_proxy=$http_proxy
+FTP_PROXY=$http_proxy
+no_proxy=".sap.corp, localhost"
+NO_PROXY=$no_proxy
+export http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY
+echo "http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY"
+echo "set to: $http_proxy"
+echo "no_proxy, NO_PROXY set to: $no_proxy!"
+}
+function noproxy {
+unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY
+echo "http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY"
+echo "unset!"
+}
+
+
+#export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home"
+export PATH=$PATH:~/xmake/bin
+export ANDROID_HOME="/Users/setup/Library/Android/sdk"
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/tools:$PATH
+export TNS_ANDROID="/Users/setup/Library/Android/tns-android-3.4.1.tgz"
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH
+function setproxy {
+http_proxy=http://proxy.wdf.sap.corp:8080
+HTTP_PROXY=$http_proxy
+https_proxy=$http_proxy
+HTTPS_PROXY=$http_proxy
+ftp_proxy=$http_proxy
+FTP_PROXY=$http_proxy
+no_proxy=".sap.corp, localhost"
+NO_PROXY=$no_proxy
+export http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY
+echo "http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY"
+echo "set to: $http_proxy"
+echo "no_proxy, NO_PROXY set to: $no_proxy!"
+}
+function noproxy {
+unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY
+echo "http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ftp_proxy FTP_PROXY no_proxy NO_PROXY"
+echo "unset!"
+}
+export LANG=en_US.UTF-8
+#export JAVA_HOME=$(/usr/libexec/java_home)
+#export PATH=$PATH:~/xmake/bin
